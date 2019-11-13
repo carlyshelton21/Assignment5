@@ -1,0 +1,119 @@
+/* this is the background-color*/
+@media {
+    body {
+        background-color: red;
+        margin: 0;
+        animation-name: bg-color;
+        animation-duration: 4s;
+        animation-iteration-count:infinite;
+    }
+}
+
+.container {}
+
+/* this is the C*/
+#rec1 {
+    position: absolute;
+    left: 400px;
+    top: 300px;
+    background-color: green;
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+#sqover {
+    position: absolute;
+    left: 200px;
+    top: 100px;
+    background-color: blue;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+/* this is the L*/
+#rec2 {
+    position: absolute;
+    left: 400px;
+    background-color: green;
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+#recover {
+    position: absolute;
+    left: 200px;
+    background-color: blue;
+    width: 100px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+/* this is the U*/
+#rec3 {
+    position: absolute;
+    left: 400px;
+    background-color: green;
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+#recover2 {
+    position: absolute;
+    left: 150px;
+    background-color: blue;
+    width: 100px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+/* this is the B*/
+#rec4 {
+    position: absolute;
+    left: 400px;
+    background-color: green;
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+#sqover2 {
+    position: relative;
+    top: 60px;
+    left: 150px;
+    background-color: blue;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+#sqover3 {
+    position: relative;
+    left: 0px;
+    top: 150px;
+    background-color: blue;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+/* this is the bg-color animation*/
+@keyframes bg-color {
+    0% {
+        background-color: red;
+    }
+
+    25% {
+        background-color: yellow;
+    }
+
+    50% {
+        background-color: blue;
+    }
+
+    100% {
+        background-color: green;
+    }
